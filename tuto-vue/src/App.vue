@@ -25,10 +25,12 @@
       Masquer les tâches complétées
     </label>
   </div>
+  <checkbox label = "Bonjour"/>
 </template>
 
 <script setup>
 import { ref, computed } from 'vue';
+import checkbox from './checkbox.vue';
 
 const newTodo = ref('');
 const hideCompleted = ref(false);
